@@ -1,0 +1,204 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.box12{
+	height:660px;
+	width:1350px;
+	
+            }
+header{
+	height:130px;
+	width:1364px;
+	background-color:#454554;
+}
+
+section{
+	height:533px;
+	width:1364px;
+	background-color:grey;
+}
+footer{
+	height:90px;
+	width:1364px;
+	background-color:#454554;
+}
+.logo{
+	float:left;
+	
+	padding-left:20px;
+}
+.logo img{
+	padding-top:20px;
+	
+	padding-left:50px;
+}
+li a{
+	color:white;
+	text-decoration:none;
+}
+nav{
+	float:right;
+	word-spacing:20px;
+	padding:20px;
+}
+nav li{
+	display:inline-block;
+		line-height:80px;
+}
+section{
+	margin-top:0px;
+	
+	
+	background-image:url("images/book2.jpg");
+}
+.box  {
+	
+	height:300px;
+	width:450px;
+	background-color:black;
+	margin:20px auto;
+	opacity:.6;
+}
+.box h1 {              /* descendant selector*/
+	color:white;
+}
+
+
+.box1234 h2 {                     /* descendant selector*/
+	
+  
+  
+  
+  bottom: 100px;
+  text-align:center;
+  color:yellow;
+ background-color:black;
+ opacity:.5;
+  
+}
+
+
+
+
+ .searchbox {  
+float: left;  
+}  
+input[type=text] {  
+padding: 6px;  
+margin-top: 8px;  
+font-size: 17px;  
+  
+}  
+.searchbox button {  
+  
+  
+margin-top: 10px;  
+margin-left: 10px;  
+background: white;  
+font-size: 20px;  
+
+cursor: pointer;  
+}  
+.searchbox button:hover {  
+background: white;  
+}  
